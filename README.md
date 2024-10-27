@@ -192,6 +192,9 @@
         <!-- Model Overview Image -->
         <img src="diffusion_model_overview.jpg" alt="Diffusion Model Overview">
     </div>
+    
+<h1>End</h1>
+<p>Thank you for taking the time to explore my research demos! I believe these models are both creative and intuitive for music enthusiasts. Students would find it exciting to build these kinds of models and use them creatively in their own projects.</p>
 
 </body>
 </html>
