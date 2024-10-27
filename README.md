@@ -1,5 +1,5 @@
 <p>This is the page showcasing some of my research topics' output demos, for my creative works: (<a href="https://shinxinyangdemo.github.io" target="_blank">shinxinyangdemo.github.io</a>)</p>
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,6 +38,7 @@
     <!-- First Section: GNN Guided Mashup Generation -->
     <div class="section">
         <h1>Graph Neural Network Guided Mashup Generation</h1>
+        <p>Developed graph neural networks to model the interactions between vocals and instrumentals as a bipartite matching problem at the 'grains' level (quarter-bar segments). This approach yielded surprising results for music mashups, where the model successfully learned to rearrange and blend original instrumentals with elements from different songs, often creating unexpected yet cohesive fusions. This technique holds great potential across various fields, offering a flexible tool for producers and music enthusiasts as a sound design solution. It allows for novel outcomes that might be fatiguing to achieve manually. This project embodies my future research direction after my thesis—creating innovative tools for sound design that offer fresh perspectives on music production.</p>
 
         <!-- Audio Rows -->
         <div class="audio-row">
