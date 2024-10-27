@@ -127,7 +127,8 @@
         </div>
 
         <!-- Model Overview Image -->
-        <img src="gnn_model_overview.jpg" alt="GNN Model Overview">
+        <img src="gnn_model_overview.jpg" alt="GNN Model Overview" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+
     </div>
 
     <!-- Second Section: Diffusion Models for Automatic Mixing -->
