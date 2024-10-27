@@ -134,6 +134,8 @@
     <div class="section">
         <h1>Diffusion Models for Automatic Mixing</h1>
 
+         <p>Developed diffusion models designed to enhance multi-channel music by simulating an imbalanced mix and progressively improving it through a mixing process. In this task, the signals contributing to the 'bad' mix are treated as noise, which is then incrementally removed to achieve a balanced output. Please note that the imbalanced input below may contain significant volume and frequency disparities, so <b>! lowering the volume! </b> before playback is recommended.</p>
+
         <!-- Audio Rows -->
         <div class="audio-row">
             <div class="audio-item">
