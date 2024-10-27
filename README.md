@@ -37,7 +37,7 @@
 
     <!-- First Section: GNN Guided Mashup Generation -->
     <div class="section">
-        <h1>Graph Neural Network Guided Mashup Generation</h1>
+        <h1>Graph Neural Network Guided Music Mashup Generation</h1>
         <p>Developed graph neural networks to model the interactions between vocals and instrumentals as a bipartite matching problem at the 'grains' level (quarter-bar segments). This approach yielded surprising results for music mashups, where the model successfully learned to rearrange and blend original instrumentals with elements from different songs, often creating unexpected yet cohesive fusions. This technique holds great potential across various fields, offering a flexible tool for producers and music enthusiasts as a sound design solution. It allows for novel outcomes that might be fatiguing to achieve manually. This project embodies my future research direction after my thesis—creating innovative tools for sound design that offer fresh perspectives on music production.</p>
 
         <!-- Audio Rows -->
@@ -131,11 +131,11 @@
 
     </div>
 
-    <!-- Second Section: Diffusion Models for Automatic Mixing -->
+    <!-- Second Section: Diffusion Models for Automatic Music Mixing -->
     <div class="section">
         <h1>Diffusion Models for Automatic Mixing</h1>
 
-         <p>Developed diffusion models designed to enhance multi-channel music by simulating an imbalanced mix and progressively improving it through a mixing process. In this task, the signals contributing to the 'bad' mix are treated as noise, which is then incrementally removed to achieve a balanced output. Please note that the imbalanced input below may contain significant volume and frequency disparities, so <b>! lowering the volume! </b> before playback is recommended.</p>
+         <p>Developed diffusion models designed to enhance multi-channel music by simulating an imbalanced mix and progressively improving it through a mixing process. In this task, the signals contributing to the 'bad' mix are treated as noise, which is then incrementally removed to achieve a balanced output. This work can be further developed into a tool for audio enhancing which is also a great tool I believe! Please note that the imbalanced input below may contain significant volume and frequency disparities, so <b>! lowering the volume! </b> before playback is recommended.</p>
 
         <!-- Audio Rows -->
         <div class="audio-row">
