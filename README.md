@@ -161,6 +161,8 @@
     </div>
 </div>
 
+<p>Original 1 provides the vocals and instrumentals, original 2 provides the instrumentals, the mashup instrumental is rearranged through the network which is a fusion of both originals</p>
+
 
         <!-- Model Overview Image -->
         <img src="gnn_model_overview.jpg" alt="GNN Model Overview" style="width: 100%; height: auto; display: block; margin: 0 auto;">
