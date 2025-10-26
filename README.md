@@ -66,7 +66,7 @@
 
 <div class="audio-row">
     <div class="audio-item">
-        <h3>Original 2</h3>
+        <h3>Original 1</h3>
         <audio controls>
             <source src="original_2.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -90,7 +90,7 @@
 
 <div class="audio-row">
     <div class="audio-item">
-        <h3>Original 3</h3>
+        <h3>Original 1</h3>
         <audio controls>
             <source src="original_3.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -114,7 +114,7 @@
 
 <div class="audio-row">
     <div class="audio-item">
-        <h3>Original 4</h3>
+        <h3>Original 1</h3>
         <audio controls>
             <source src="original_4.wav" type="audio/wav">
             Your browser does not support the audio element.
@@ -138,7 +138,7 @@
 
 <div class="audio-row">
     <div class="audio-item">
-        <h3>Original 5</h3>
+        <h3>Original 1</h3>
         <audio controls>
             <source src="original_5.wav" type="audio/wav">
             Your browser does not support the audio element.
