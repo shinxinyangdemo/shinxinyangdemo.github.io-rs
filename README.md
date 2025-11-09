@@ -162,6 +162,10 @@
 
 <p>Original 1 provides the vocals and instrumentals, original 2 provides the instrumentals, the mashup instrumental is rearranged through the network which is a fusion of both originals</p>
 
+<p align="center">
+  <img src="gnn_model_overview.jpg" width="400"><br>
+  <em>Figure: GNN</em>
+</p>
 
 
     </div>
