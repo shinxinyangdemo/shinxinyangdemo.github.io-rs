@@ -1,5 +1,3 @@
-<p>This is the page showcasing some of my research topics' output demos, for my creative works: (<a href="https://shinxinyangdemo.github.io" target="_blank">shinxinyangdemo.github.io</a>)</p>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,9 +29,73 @@
             margin: 20px auto;
             display: block;
         }
+
+        /* Video section styles */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            align-items: start;
+            margin-top: 10px;
+        }
+        .video-item {
+            text-align: center;
+        }
+        .video-item video {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .video-item figcaption {
+            font-size: 0.95rem;
+            color: #444;
+            margin-top: 6px;
+        }
+        .section h1 small {
+            font-weight: normal;
+            font-size: 0.7em;
+            color: #666;
+        }
     </style>
 </head>
+
 <body>
+
+<p>
+  This is the page showcasing some of my research topics' output demos,
+  for my creative works:
+  (<a href="https://shinxinyangdemo.github.io" target="_blank">
+  shinxinyangdemo.github.io</a>)
+</p>
+
+<!-- ✅ First Section: Dominant-Note–Conditioned Generation & Editing (Pilot) -->
+<div class="section">
+  <h1>Dominant-Note–Conditioned Generation & Editing
+    <small>(pilot results; work in progress)</small>
+  </h1>
+  <p>
+    Pilot results for music <b>generating</b> and <b>editing</b> models,
+    conditioned on the dominant note. Still work in progress…
+  </p>
+
+  <div class="video-grid">
+    <figure class="video-item">
+      <video controls preload="metadata" playsinline>
+        <source src="generating.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption><b>Generating</b>: dominant-note conditioned music generation.</figcaption>
+    </figure>
+
+    <figure class="video-item">
+      <video controls preload="metadata" playsinline>
+        <source src="editing.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption><b>Editing</b>: inversion-based editing guided by the same dominant-note condition.</figcaption>
+    </figure>
+  </div>
+</div>
 
     <!-- First Section: GNN Guided Mashup Generation -->
     <div class="section">
