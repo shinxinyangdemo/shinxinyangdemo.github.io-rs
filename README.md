@@ -81,7 +81,7 @@
   <div class="video-grid">
     <figure class="video-item">
       <video controls preload="metadata" playsinline>
-        <source src="generating.mp4" type="video/mp4">
+        <source src="generate.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption><b>Generating</b>: dominant-note conditioned music generation.</figcaption>
