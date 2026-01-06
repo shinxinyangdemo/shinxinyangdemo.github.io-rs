@@ -83,7 +83,7 @@
   <!-- Disclaimer -->
   <div class="disclaimer">
     <p><b>Disclaimer.</b> The generation model is trained on a <b>licensed dataset</b> for research in generative music.
-      The editing demos include short excerpts from songs I personally enjoy; these tracks are used <b>only for qualitative evaluation</b>
+      The editing demos include short excerpts from songs I personally enjoy; these tracks are used only for my own test
       and are <b>not used for training</b>.
     </p>
   </div>
