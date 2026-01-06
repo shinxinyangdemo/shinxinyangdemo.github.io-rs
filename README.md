@@ -81,7 +81,7 @@
   <div class="video-grid">
     <figure class="video-item">
       <video controls preload="metadata" playsinline>
-        <source src="generate.mp4" type="video/mp4">
+        <source src="generate_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption><b>Generating</b>: dominant-note conditioned music generation.</figcaption>
@@ -89,7 +89,7 @@
 
     <figure class="video-item">
       <video controls preload="metadata" playsinline>
-        <source src="editing.mp4" type="video/mp4">
+        <source src="edit_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <figcaption><b>Editing</b>: inversion-based editing guided by the same dominant-note condition.</figcaption>
