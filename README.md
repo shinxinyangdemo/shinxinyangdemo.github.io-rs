@@ -99,13 +99,11 @@
       <li>
         <b>Editing:</b> take any source audio → extract its chromagram → set / modify the dominant-note condition →
         perform inversion-based editing to keep parts of the original character while steering harmonic content toward the target dominant notes.
+          This is intended as a potential musician-facing editing tool: it can operate on <b>full mixed songs</b> (not just isolated stems),
+      where traditional DAW workflows often struggle to “surgically” decouple and rewrite harmonic content.
       </li>
     </ul>
 
-    <p class="note">
-      This is intended as a potential musician-facing editing tool: it can operate on <b>full mixed songs</b> (not just isolated stems),
-      where traditional DAW workflows often struggle to “surgically” decouple and rewrite harmonic content.
-    </p>
   </div>
 
   <div class="video-grid">
