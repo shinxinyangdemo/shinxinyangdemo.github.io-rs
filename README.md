@@ -70,13 +70,43 @@
 
 <!-- ✅ First Section: Dominant-Note–Conditioned Generation & Editing (Pilot) -->
 <div class="section">
-  <h1>Dominant-Note–Conditioned Generation & Editing
+  <h1>
+    Dominant-Note–Conditioned Generation &amp; Editing
     <small>(pilot results; work in progress)</small>
   </h1>
+
   <p>
-    Pilot results for music <b>generating</b> and <b>editing</b> models,
-    conditioned on the dominant note. Still work in progress…
+    Early experiments on music <b>generation</b> and <b>editing</b> using a simple harmonic control signal:
+    the <b>smoothed dominant note</b> estimated from a chromagram.
   </p>
+
+  <!-- Disclaimer -->
+  <div class="disclaimer">
+    <p><b>Disclaimer.</b> The generation model is trained on a <b>licensed dataset</b> for research in generative music.
+      The editing demos include short excerpts from songs I personally enjoy; these tracks are used <b>only for qualitative evaluation</b>
+      and are <b>not used for training</b>.
+    </p>
+  </div>
+
+  <!-- Method overview -->
+  <div class="method">
+    <h3>How it works (high level)</h3>
+    <ul>
+      <li>
+        <b>Generation:</b> input a <b>chromagram</b> → compute a <b>temporally smoothed dominant-note trajectory</b> →
+        generate <b>44.1 kHz stereo</b> audio conditioned on that trajectory.
+      </li>
+      <li>
+        <b>Editing:</b> take any source audio → extract its chromagram → set / modify the dominant-note condition →
+        perform inversion-based editing to keep parts of the original character while steering harmonic content toward the target dominant notes.
+      </li>
+    </ul>
+
+    <p class="note">
+      This is intended as a potential musician-facing editing tool: it can operate on <b>full mixed songs</b> (not just isolated stems),
+      where traditional DAW workflows often struggle to “surgically” decouple and rewrite harmonic content.
+    </p>
+  </div>
 
   <div class="video-grid">
     <figure class="video-item">
@@ -84,7 +114,7 @@
         <source src="generate_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption><b>Generating</b>: dominant-note conditioned music generation.</figcaption>
+      <figcaption><b>Generating:</b> dominant-note conditioned music generation.</figcaption>
     </figure>
 
     <figure class="video-item">
@@ -92,10 +122,11 @@
         <source src="edit_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <figcaption><b>Editing</b>: inversion-based editing guided by the same dominant-note condition.</figcaption>
+      <figcaption><b>Editing:</b> inversion-based editing guided by a dominant-note condition.</figcaption>
     </figure>
   </div>
 </div>
+
 
     <!-- First Section: GNN Guided Mashup Generation -->
     <div class="section">
